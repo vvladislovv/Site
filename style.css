@@ -9,21 +9,88 @@
 .main{
     width: 100%;
     height: 85vh;
-    background-color: #AFD198;
+    background-color: lightgray; /* Цвет фона */
+    /* или */
+    background-image: url('https://data.textstudio.com/output/sample/animated/1/4/3/8/roblox-1-18341.gif'); /* Изображение в качестве фона */
+    background-size:cover; /* Растягивает изображение на всю область */
+    background-repeat: no-repeat; /* Запрет повторения изображения */
+}
+.main2{
+    width: 100%;
+    height: 85vh;
+    background-color: #7876e7;
+
 }
 
 .content{
     text-align: center;
     position: relative;
     top: 20%;
+    
     color: #fff;
 }
-.header {
+
+body {
+    background-color: lightgray; /* Цвет фона */
+    /* или */
+    background-image: url('https://data.textstudio.com/output/sample/animated/1/4/3/8/roblox-1-18341.gif'); /* Изображение в качестве фона */
+    background-size:cover; /* Растягивает изображение на всю область */
+    background-repeat: no-repeat; /* Запрет повторения изображения */
+}
+
+.photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.photo {
+    color: #fff;
     text-align: center;
-    background-color: #596d4b;
+    margin: 0 20px;
+}
+
+.photo img {
+    width: 200px;
+    max-width: 100%;
+    
+}
+
+nav {
+    background-color: #6e726e; /* Цвет фона */
+    text-align: center; /* Выравнивание по центру */
+}
+
+ul {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0;
+    margin: 0;
+    display: inline-block; /* Отображаем элементы в одну строку и центрируем */
+}
+
+li {
+    display: inline; /* Отображаем элементы в одну строку */
+}
+
+a {
+    display: inline-block;
+    color: white; /* Цвет текста */
+    text-align: center;
+    padding: 14px 16px; /* Отступы внутри элементов */
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #b0b9b4; /* Цвет фона при наведении курсора */
 }
 
 .main img{
+    width: 300px;
+    height: 350px;
+}
+
+.main2 img{
     width: 300px;
     height: 350px;
 }
@@ -33,4 +100,8 @@
 }
 .main p{
     font-size: 50px;
+}
+
+img {
+    border-radius: 40px; /* Пример радиуса закругления в 10 пикселей */
 }
